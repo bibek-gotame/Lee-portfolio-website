@@ -144,7 +144,7 @@
     width: 100%;
     border-radius: 1rem;
     border: 2px solid rgb(150, 150, 150);
-    background-image: url(/images/about-img.jpeg);
+    background-image: url(../images/about-img.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
