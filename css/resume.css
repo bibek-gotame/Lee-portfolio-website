@@ -1,0 +1,346 @@
+.resume {
+    padding-top: 4rem;
+
+}
+
+
+
+.top-img-section {
+
+    position: relative;
+    padding-inline: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+    color: rgb(0, 0, 0);
+    background-image: url(/images/resume.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 0;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.right .btn {
+    font-size: 1.25rem;
+    padding: 1rem;
+    border: 2px solid rgb(38, 34, 34);
+}
+
+.right .btn:hover {
+    border: 2px solid rgb(17, 8, 8);
+}
+
+.resume-content {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-inline: 1rem;
+}
+
+
+
+
+/* EXPERIENCES-SECTION */
+
+
+
+.resume-content .exp-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.exp-item-container div {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.exp p {
+    max-width: 23ch;
+}
+
+.exp div p:nth-child(1) {
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 500;
+}
+
+.exp div p:nth-child(2) {
+    font-size: 1rem;
+    color: gray;
+}
+
+.exp div p:nth-child(3) {
+    font-size: 1rem;
+    color: gray;
+}
+
+.exp div p:nth-child(4) {
+    font-size: 1rem;
+    color: rgb(5, 4, 4);
+}
+
+
+/* EDUCATION-SECTION */
+
+.edu {
+    padding-top: 4rem;
+}
+
+.edu-item-container {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+
+.edu-item-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.edu-item-container div p:nth-child(1) {
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 500;
+}
+
+.edu-item-container div p:nth-child(2) {
+    font-size: 1rem;
+    color: gray;
+}
+
+.edu-item-container div p:nth-child(3) {
+    font-size: 1rem;
+    color: gray;
+}
+
+.edu-item-container div p:nth-child(4) {
+    font-size: 1rem;
+    color: rgb(5, 4, 4);
+}
+
+
+
+
+/* SKILLS-SECTION */
+
+.skills {
+    padding-top: 4rem;
+
+}
+
+.skill-items-container {
+
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.skill-items-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.skill-item h4 {
+    font-size: 1.1rem;
+}
+
+.skill-item p {
+    color: gray;
+    font-size: 1rem;
+}
+
+
+/* xs */
+/* @media (min-width: 475px) { } */
+
+/* sm */
+@media (min-width: 640px) {
+    .top-img-section {
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+
+    .top-img-section p:nth-child(1) {
+        font-size: 1.25rem;
+        max-width: 60ch;
+    }
+
+    .top-img-section p:nth-child(2) {
+        font-size: 1.35em;
+        color: rgb(67, 65, 65);
+        max-width: 60ch;
+    }
+
+
+
+
+/* EXPERIENCES-SECTION */
+
+
+
+    .exp-item-container div {
+        width: 20rem;
+    }
+
+
+
+    /* education */
+
+
+    .edu-item-container {
+        flex-direction: row;
+    }
+
+    .edu-item-container div {
+        width: 50%;
+    }
+
+
+
+    /* skilsss */
+
+
+    .skill-items-container {
+        flex-direction: row;
+    }
+
+    .skill-item {
+        width: 50%;
+    }
+
+}
+
+/* md */
+@media (min-width: 768px) {
+
+
+    .top-img-section {
+        padding-inline: 2rem;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .resume-content {
+        padding-inline: 2rem;
+    }
+
+
+
+
+/* EXPERIENCES-SECTION */
+
+
+
+    .exp-item-container div {
+        width: 25rem;
+    }
+
+    .exp p {
+        max-width: 26ch;
+    }
+
+    .exp div p:nth-child(1) {
+        font-size: 1.4rem;
+        color: black;
+        font-weight: 500;
+    }
+
+    .exp div p:nth-child(2) {
+        font-size: 1.3rem;
+        color: gray;
+    }
+
+    .exp div p:nth-child(3) {
+        font-size: 1.3rem;
+        color: gray;
+    }
+
+    .exp div p:nth-child(4) {
+        font-size: 1.3rem;
+        color: rgb(5, 4, 4);
+    }
+
+
+    /* education */
+
+
+
+    .edu {
+        padding-top: 6rem;
+    }
+
+
+    .edu-item-container div p:nth-child(1) {
+        font-size: 1.4rem;
+        color: black;
+        font-weight: 500;
+    }
+
+    .edu-item-container div p:nth-child(2) {
+        font-size: 1.3rem;
+        color: gray;
+    }
+
+    .edu-item-container div p:nth-child(3) {
+        font-size: 1.3rem;
+        color: gray;
+    }
+
+    .edu-item-container div p:nth-child(4) {
+        font-size: 1.3rem;
+        color: rgb(5, 4, 4);
+    }
+
+
+
+
+}
+
+/* lg */
+@media (min-width: 1024px) {
+
+    .resume {
+        padding-top: 0rem;
+    }
+
+    .top-img-section {
+        padding-left: 10rem;
+    }
+
+    .resume-content {
+        padding-left: 10rem;
+    }
+
+
+
+/* EXPERIENCES-SECTION */
+
+
+
+    .exp-item-container div {
+        width: 16rem;
+        /* border: 1px solid red; */
+        margin-top: 1rem;
+    }
+
+}
+
+/* xl */
+/* @media (min-width: 1280px) { } */
+
+/* 2xl */
+/* @media (min-width: 1536px) { } */

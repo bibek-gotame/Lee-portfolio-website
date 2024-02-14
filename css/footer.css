@@ -1,0 +1,272 @@
+footer {
+    background-color: #2D2F37;
+
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+    padding-inline: 1rem;
+}
+
+.footer-1 .about-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-1 .about-nav .about-me {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
+
+.footer-1 .about-nav .about-me span {
+    color: #FAAF52;
+    text-decoration: underline;
+}
+
+.footer-1 .about-nav .about-me p {
+    color: rgb(176, 176, 176);
+}
+
+
+.navigation {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navigation li a{
+    color: rgb(199, 199, 199);
+}
+
+.navigation a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.contact-follow {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-contact h2 {
+    color: white;
+    padding-bottom: 1.5rem;
+
+}
+
+.footer-contact .adr {
+    display: flex;
+    gap: 1rem;
+    color: rgb(175, 175, 175);
+
+}
+.footer-contact  a{
+    color: rgb(255, 255, 255);
+}
+.footer-contact  a:hover{
+    text-decoration: underline;
+}
+
+.emails {
+    padding-bottom: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    color: rgb(175, 175, 175);
+}
+
+.footer-contact p a{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-top: 1.5rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.follow {
+    /* border: 1px solid red; */
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.follow .icons {
+    display: flex;
+    /* border: 1px solid red; */
+    width: fit-content;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.follow .icons div {
+    border: 1px solid white;
+    width: fit-content;
+    padding: .75rem;
+
+}
+
+
+
+/* footer-2 */
+.footer-2{
+    padding-inline:1rem;
+}
+
+.footer-2 .line {
+
+    width: 100%;
+    height: 3px;
+    background-color: gray;
+
+}
+
+.footer-2 .bottom {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: rgb(165, 165, 165);
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.footer-2 .bottom p {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* border: 2px solid red; */
+}
+
+.footer-2 .bottom .hr {
+    display: inline-block;
+    background-color: gray;
+    width: 2px;
+    height: 1rem;
+}
+
+.bottom a {
+    color: white;
+    margin-left: .5rem;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* xs */
+/* @media (min-width: 475px) { } */
+
+/* sm */
+/* @media (min-width: 640px) { } */
+
+/* md */
+@media (min-width: 768px) {
+    footer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .footer-1 {
+        gap: 3rem;
+    }
+
+    .footer-1 .about-nav {
+
+        flex-direction: row;
+
+    }
+
+    .about-me {
+        width: 50%;
+    }
+
+    .navigation {
+        width: 50%;
+    }
+
+    .contact-follow {
+
+        flex-direction: row;
+
+    }
+
+    .footer-contact {
+        width: 50%;
+    }
+
+    .follow {
+        width: 50%;
+    }
+    .footer-2 .bottom {
+      
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .footer-1 {
+        padding-left: 10rem;
+        padding-right: 2rem;
+        flex-direction: row;
+        /* gap: 1rem; */
+    }
+
+    .footer-2 {
+        padding-left: 10rem;
+        padding-right: 1rem;
+
+    }
+
+    .about-nav {
+        width: 50%;
+    }
+
+    .contact-follow {
+        width: 50%;
+    }
+
+    .about-me {
+        width: 75%;
+        /* border: 2px solid red; */
+    }
+
+    .navigation {
+        width: 25%;
+        /* border: 2px solid red; */
+    }
+
+
+    .footer-contact {
+        width: 50%;
+        /* border: 2px solid red; */
+    }
+
+    .follow {
+        width: 50%;
+        /* border: 2px solid red; */
+    }
+}
+
+/* xl */
+/* @media (min-width: 1280px) { } */
+
+/* 2xl */
+/* @media (min-width: 1536px) { } */
