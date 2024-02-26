@@ -1,0 +1,169 @@
+main {
+    width: 100%;
+    padding-top: 6rem;
+    padding-inline: 1rem;
+}
+
+/* -----------------.project_img------------ */
+
+.project_img {
+    padding-top: 6rem;
+
+    margin-bottom: 2rem;
+}
+
+/*-------------- project_description--------- */
+.project_description{
+    margin-top: 3rem;
+}
+
+.project_description p {
+    max-width: 50rem;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+
+}
+
+.project_description .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.cards div {
+    width: 10rem;
+    /* border: 2px solid red; */
+
+}
+/* -----------------.overview--------------- */
+
+
+.overview{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    margin-left: -10rem;
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+background: #FAFAFA;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+.overview h3{
+    color: #FC423D;
+    
+    margin-bottom: -1rem;
+}
+.overview  p {
+    max-width: 60rem;
+    font-size: 1.15rem;
+}
+.overview  .img{
+    width: 90%;
+}
+.overview img{
+    width: 100%;
+}
+/* ----------------.userfeedback-------------- */
+
+
+.userfeedback div:nth-child(1) h3 {
+    color: #FC423D;
+}
+
+
+.userfeedback div:nth-child(1) h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+.userfeedback ul {
+
+    padding-left: 1.2rem;
+}
+
+.userfeedback li {
+    list-style: disc;
+}
+
+.userfeedback div:nth-child(2) {
+    max-width: 50rem;
+}
+
+.userfeedback div:nth-child(2) h2 {
+    font-size: 1.75rem;
+    margin-top: 5rem;
+
+}
+
+/* ----------------feedback-reflection------------------ */
+
+
+
+.feedback-reflection .feedback {
+    margin-top: 5rem;
+    max-width: 30rem;
+    margin-bottom: 6rem;
+}
+
+.feedback-reflection .feedback h2 {
+    font-size: 1.75rem;
+}
+
+.reflection {
+    max-width: 50rem;
+
+}
+
+.feedback-reflection .reflection h2:nth-child(1) {
+    color: #FC423D;
+    font-size: 1.25rem;
+}
+
+.feedback-reflection .reflection h2:nth-child(2) {
+    font-size: 1.75rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.reflection p {
+    margin-bottom: 1rem;
+
+}
+
+/*------------- responsiveness------------------ */
+
+
+
+
+/* xs */
+/* @media (min-width: 475px) { } */
+
+/* sm */
+/* @media (min-width: 640px) { } */
+
+/* md */
+/* @media (min-width: 768px) { } */
+
+/* lg */
+@media (min-width: 1024px) {
+    .project_img {
+        padding-top: 0rem;
+    }
+
+    main {
+        /* height: 100vh; */
+        width: 100%;
+        padding-top: 0rem;
+        padding-left: 10rem;
+    }
+
+}
+
+/* xl */
+/* @media (min-width: 1280px) { } */
+
+/* 2xl */
+/* @media (min-width: 1536px) { } */
