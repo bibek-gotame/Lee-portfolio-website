@@ -40,11 +40,11 @@
     padding-bottom: 2rem;
     font-size: .95rem;
     color: gray;
-    
+
 }
 
 .email span {
-    border-bottom:2px solid rgb(195, 195, 195);
+    border-bottom: 2px solid rgb(195, 195, 195);
     text-decoration: none;
     color: black;
 }
@@ -76,38 +76,101 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 480px; 
+    height: 480px;
 }
 
 
 
-/* projects- */
+/* -----------------projects---------------- */
 
-.project{
-    height: 100vh;
+.project {
+    /* height: 100vh; */
     width: 100%;
-    padding-inline: 1rem;
+    /* padding-inline: 1rem; */
 }
 
 
 
-.project>h1{
+.project>h1 {
     font-size: 2rem;
     margin-top: 2rem;
     display: flex;
     gap: 1rem;
     align-items: center;
+    background-color: #D3D3D3;
+    padding-left: 10rem;
+    margin-left: -10rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
-.project>h1>span{
+
+.project>h1>span {
     height: 1rem;
     width: 1rem;
-    border:4px solid black;
+    border: 4px solid black;
     border-radius: 50%;
 
 }
+
+.cards-container {}
+
+.cards-container .card-line{
+    border: 2px solid rgb(177, 177, 177);
+    padding: 1rem;
+    width: fit-content;
+}
+.cards-container .card {
+    position: relative;
+    width: fit-content;
+    padding: 1rem;
+    overflow: hidden;
+
+}
+
+.cards-container .img{
+    transition: 500ms ease-in-out;
+    position: relative;
+}
+
+.cards-container .black{
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    opacity: .5;
+}
+.cards-container .black:hover{
+ 
+    transition: 1s ease-in-out;
+    background-color: black;
+ 
+}
+.cards-container .card img {
+    width: 29rem;
+    height: 25rem;
+    object-fit: cover;
+    scale: 1.15;
+    transition: 700ms ease-out;
+
+}
+
+.cards-container .card img:hover {
+    scale: 1.25;
+}
+
+.cards-container .text{
+    position: absolute;
+    z-index: 4;
+}
+img{
+    /* opacity: 0.5; */
+    z-index: 1  ;
+}
+/* --------------responsiveness----------- */
+
 /* xs */
 @media (min-width: 475px) {
-    .hero  .right {
+    .hero .right {
         height: 600px;
         min-height: 0;
     }
@@ -131,7 +194,7 @@
 @media (min-width: 768px) {
 
 
-    .hero   .right {
+    .hero .right {
 
         height: 80vh;
         max-height: 80vh;
@@ -151,23 +214,23 @@
         display: flex;
     }
 
-    .hero  .left {
+    .hero .left {
         padding-top: 5rem;
         width: 45%;
 
         height: 100%;
         max-height: 100vh;
-        min-height: 100vh; 
+        min-height: 100vh;
     }
 
 
 
-    .hero  .right {
+    .hero .right {
 
         width: 55%;
         height: 100%;
         max-height: 100vh;
-        min-height: 100vh; 
+        min-height: 100vh;
     }
 
 
@@ -178,6 +241,7 @@
         height: fit-content;
         /* border: 2px solid red; */
     }
+
     .hero .left .img {
         /* height: 5rem; */
         width: 10rem;
@@ -197,15 +261,16 @@
 
 /* xl */
 @media (min-width: 1280px) {
-    .hero .left{
+    .hero .left {
         padding-top: 8rem;
     }
+
     .hero .left .img {
         /* height: 5rem; */
         width: 10rem;
         padding-bottom: 2rem;
     }
- }
+}
 
 /* 2xl */
 /* @media (min-width: 1536px) { } */

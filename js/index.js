@@ -54,3 +54,4 @@ for (const button of li) {
 
 
 
+const hover = document.querySelector('.black')
